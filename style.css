@@ -1,0 +1,347 @@
+#navMeni{
+     background-color:rgb(109, 109, 109);
+     text-align:center;
+     border:7px solid rgb(31, 30, 30);
+     border-radius:5px;
+}
+
+#navMeni a{
+    display:inline-block;
+    color:black;
+    font-weight:bold;
+    text-align:left;
+    font-size:24px;
+    text-decoration:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:16px 20px;
+}
+
+html{
+    background-color:rgb(31, 30, 30);
+
+}
+
+#navMeni a:hover{
+    background-color:white;
+    color:navy;
+    border:1px solid white;
+    transition:2s;
+
+}
+
+@keyframes animacija{
+
+    0%{margin-left:20px;}
+    40%{margin-left:600px;}
+    100%{margin-left:300px;}
+    
+}
+
+.boss{
+    height:200px;
+    width:60%;
+    margin:auto;
+    display:block;
+    border:3px solid white;
+    border-radius:5px;
+    animation:animacija;
+    animation-duration:4s;
+}
+
+@media screen and(max-width:600px){
+    #navMeni a{
+        display:block;
+        width:100%;
+    }
+
+
+}
+
+#paragrafi{
+    display:block;
+}
+
+#paragraf1{
+    background-color:darkcyan;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:3px;
+    font-weight:lighter;
+    padding:1px 3px;
+    margin-right:43%;
+    border-radius:7px;
+}
+
+#paragraf2{
+    background-color:darkcyan;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:4px;
+    font-weight:lighter;
+    padding:1px 3px;
+    float:left;
+    border-radius:7px
+}
+
+.satakcija{
+    width:300px;
+    height:300px;
+    margin-left:600px;
+    margin-top:70px;
+    border:6px solid gray;
+    border-radius:3px;
+    display:block;
+}
+
+#slike{
+    text-align:center;
+    display:block;
+    font-size:25px;
+}
+
+.caption{
+    background:lightblue;
+}
+
+.caption1{
+    color:white;
+}
+
+.caption1-1{
+    color:white;
+}
+
+.caption1-2{
+      color:white;
+      text-decoration-line: line-through;
+}
+
+.caption1-3{
+    background:red;
+}
+
+#onama{
+    background-color:darkcyan;
+    text-align:center;
+    font-size:20px;
+    margin-left:40px;
+    margin-top:100px;
+    margin-right:40px;
+    border:3px solid black;
+    
+}
+
+#footer{
+    background-color:rgb(41, 41, 43);
+    padding:2px 5px;
+    color:darkcyan;
+    position:relative;
+}
+
+.sat1{
+    margin-left:600px;
+    margin-top:60px;
+    height:300px;
+    width:300px;
+    border:4px solid black;
+}
+
+#sat1-tekst{
+    text-align:center;
+    font-size:25px;
+    color:darkgrey;
+}
+
+.sat2{
+    margin-left:600px;
+    margin-top:60px;
+    height:300px;
+    width:300px;
+    border:4px solid black;
+}
+
+#sat2-tekst{
+    text-align:center;
+    font-size:25px;
+    color:darkgrey;
+}
+
+.sat3{
+    margin-left:600px;
+    margin-top:60px;
+    height:300px;
+    width:300px;
+    border:4px solid black;
+}
+
+#sat3-tekst{
+    text-align:center;
+    font-size:25px;
+    color:darkgrey;
+}
+
+.sat4{
+    margin-left:600px;
+    margin-top:60px;
+    height:300px;
+    width:300px;
+    border:4px solid black;
+}
+
+#sat4-tekst{
+    text-align:center;
+    font-size:25px;
+    color:darkgrey;
+}
+
+.sat5{
+    margin-left:600px;
+    margin-top:60px;
+    height:300px;
+    width:300px;
+    border:4px solid black;
+}
+
+#sat5-tekst{
+    text-align:center;
+    font-size:25px;
+    color:darkgrey;
+}
+
+#forma{
+    text-align:center;
+    background-color:navy;
+}
+
+#formaTekst{
+    color:darkgrey;
+    font-size:20px;
+    background-color:black;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+#kontaktTitle{
+    font-weight:bold;
+    color:darkgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    text-decoration:underline;
+}
+
+#kontaktParagraf{
+    font-weight:bold;
+    color:darkgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px
+}
+
+#kontakt{
+    background-color:gray;
+    margin-right:900px;
+    border-radius:7px;
+}
+
+#textarea{
+    width:350px;
+    height:150px;
+    border-radius:7px;
+}
+
+input{
+    height:40px;
+    width:300px;
+    border-radius:5px;
+}
+
+@media screen and (max-width:850px) {
+    .sat1,.sat2,.sat3,.sat4,.sat5,.satakcija{
+        margin-left:250px;
+    }
+    .boss{
+        width:80%;
+    }
+   
+}
+
+
+
+@media screen and (max-width:1243px) {
+    #kontakt{
+        margin-right:800px;
+    }
+    
+}
+
+@media screen and (max-width:1143px) {
+    #kontakt{
+        margin-right:700px;
+    }
+    
+}
+
+@media screen and (max-width:1040px){
+    #kontakt{
+        margin-right:400px;
+
+    }
+}
+
+@media screen and (max-width:740px){
+    #kontakt{
+        margin-right:100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #navMeni a{
+        display:block;
+        border:3px solid darkgrey;
+    }
+
+    .sat1,.sat2,.sat3,.sat4,.sat5,.satakcija{
+        margin-left:50px;
+    }
+
+    .boss{
+        width:80%;
+    }
+
+    #paragraf1,#paragraf2{
+        margin-right:10%;
+    }
+
+    #kontakt{
+        margin-right:5px;
+    }
+
+}
+
+@media screen and (max-width:350px)
+{
+    .boss{
+        width:95%;
+    }
+
+    #formaTekst{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .sat1{
+        margin-left:20px;
+        
+    }
+
+
+}
+
+@media screen and (max-width:400px){
+    .satakcija,.sat1,.sat2,.sat3,.sat4,.sat5{
+        margin-left:5px;
+    }
+}
+
+
+
+
